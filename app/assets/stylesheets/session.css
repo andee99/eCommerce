@@ -1,0 +1,111 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    letter-spacing: .0625em;
+    background-color:  #2c3e50;
+}
+
+#bouton {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+#bouton {
+
+    
+    height: 6px;
+    font-size: cover;
+    background-color: white;
+    color: black;
+    border: 3px solid #2a9fd6;
+}
+
+#bouton:hover {
+
+    background-color: #2a9fd6;
+}
+
+
+h2 {
+
+	font-size: 50px;
+	font-family: Chilanka;
+	color: #2a9fd6;
+}
+
+
+
+.diaporama{
+    margin-left: 70px;
+    width: 600px;
+    height: 400px;
+    border: 3px solid #2a9fd6;
+    background-image: url(img5.jpg);
+    background-size: cover; 
+    
+
+    webkit-animation-name: diapo1;
+    webkit-animation-duration: 11s;
+    webkit-animation-timing-function: linear;
+    webkit-animation-iteration-count: infinite;
+    webkit-animation-direction: normal;
+
+    moz-animation-name: diapo1;
+    moz-animation-duration: 11s;
+    moz-animation-timing-function: linear;
+    moz-animation-iteration-count: infinite;
+    moz-animation-direction: normal;
+
+    animation-name: diapo1;
+    animation-duration: 11s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: normal;                
+}   
+
+
+@-webkit-keyframes diapo1{
+
+    0%{background-image: url(img5.jpg);}
+    20%{background-image: url(img2.jpg);}
+    40%{background-image: url(img3.jpg);}
+    60%{background-image: url(img4.jpeg);}
+    80%{background-image: url(img1.jpg);}
+}
+
+@-moz-keyframes diapo1{
+
+    0%{background-image: url(img5.jpg);}
+    20%{background-image: url(img2.jpg);}
+    40%{background-image: url(img3.jpg);}
+    60%{background-image: url(img4.jpeg);}
+    80%{background-image: url(img1.jpg);}
+}
+
+@-keyframes diapo1{
+
+    0%{background-image: url(img5.jpg);}
+    20%{background-image: url(img2.jpg);}
+    40%{background-image: url(img3.jpg);}
+    60%{background-image: url(img4.jpeg);}
+    80%{background-image: url(img1.jpg);}
+}
+ 
+.row{
+    display: flex;
+    justify-content: space-between; 
+}
+
+#log{
+    margin-right: 200px;
+}
