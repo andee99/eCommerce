@@ -24,6 +24,10 @@ Things you may want to cover:
 * ...
 * bla bla
 fhfhjf
+<<<<<<< HEAD
 
 *djzsqkpfojpoesifjoize
 *tena otran ts mety an
+=======
+* cjklsqhJFKJDSHF
+>>>>>>> dev
