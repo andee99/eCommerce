@@ -1,0 +1,122 @@
+<<<<<<< HEAD
+<div class="jumbotron">
+  <h1 class="display-3">Hello, guys! Kitty lovers??</h1>
+  <p class="lead">This site was made for you... Here, you will be able to have kitty's pics or the best of all, a cat, of any breed you like.</p>
+  <hr class="my-4">
+  <p>"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."</p>
+  <p class="lead">
+    <a class="btn btn-primary btn-lg" href="<%= login_path %>" role="button">Go shopping</a>
+  </p>
+</div>
+
+<div class="site-content">
+    <div class="row">
+        <div class="col-lg-3">
+            <%= image_tag "i2.png", class: "image-test" %>
+        </div>
+        <div class="col-lg-3">
+            <p> <b>Lorem ipsum</b> dolor sit amet, consectetur adipisicing elit. Repudiandae illum, libero laudantium provident. Velit et tenetur temporibus aperiam repudiandae voluptatibus maxime suscipit quisquam, doloremque perferendis. Delectus ad fuga deleniti pariatur!</p> 
+              <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae illum, libero laudantium provident. Velit et tenetur temporibus aperiam repudiandae voluptatibus maxime suscipit quisquam, doloremque perferendis. Delectus ad fuga deleniti pariatur!</p>
+              <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae illum, libero laudantium provident. Velit et tenetur temporibus aperiam repudiandae voluptatibus maxime suscipit quisquam, doloremque perferendis. Delectus ad fuga deleniti pariatur!</p> 
+              <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae illum, libero laudantium provident. Velit et tenetur temporibus aperiam repudiandae voluptatibus maxime suscipit quisquam, doloremque perferendis. Delectus ad fuga deleniti pariatur!</p> 	 	
+        </div>
+        <div class="col-lg-3">
+            <%= image_tag "i4.png", class: "image-test" %> 	 	
+        </div>
+        <div class="col-lg-3">
+            <p> <b>Lorem ipsum</b> dolor sit amet, consectetur adipisicing elit. Repudiandae illum, libero laudantium provident. Velit et tenetur temporibus aperiam repudiandae voluptatibus maxime suscipit quisquam, doloremque perferendis. Delectus ad fuga deleniti pariatur!</p> 
+              <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae illum, libero laudantium provident. Velit et tenetur temporibus aperiam repudiandae voluptatibus maxime suscipit quisquam, doloremque perferendis. Delectus ad fuga deleniti pariatur!</p>
+              <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae illum, libero laudantium provident. Velit et tenetur temporibus aperiam repudiandae voluptatibus maxime suscipit quisquam, doloremque perferendis. Delectus ad fuga deleniti pariatur!</p> 
+              <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae illum, libero laudantium provident. Velit et tenetur temporibus aperiam repudiandae voluptatibus maxime suscipit quisquam, doloremque perferendis. Delectus ad fuga deleniti pariatur!</p> 	 	
+        </div>
+</div>
+
+<!-- test -->
+
+<div class="team">
+<h1 align="center">La Team</h1>
+<div class="row">
+    <div class="col-lg-3">
+        <div class="our-team">
+            <%= image_tag "header-bg.png", class: "card" %>
+            <h5>Andee Rakut</h5>
+            <h6>Designer/Front-end Developer</h6>
+            <div class="wrapper">
+                <a target="_blank" href="your_url_here"><i class="fa fa-3x fa-linkedin-square"></i></a>
+                <a target="_blank" href="your_url_here"><i class="fa fa-3x fa-facebook-square"></i></a>
+                <a target="_blank" href="your_url_here"><i class="fa fa-3x fa-twitter-square"></i>
+             </div></a>
+            
+        </div>
+    </div>
+    <div class="col-lg-3">
+        <div class="our-team">
+            <%= image_tag "i1.png", class: "card" %>
+            <h5>Lantoniaina</h5>
+            <h6>Web Designer</h6>
+            <div class="wrapper">
+                <a target="_blank" href="your_url_here"><i class="fa fa-3x fa-linkedin-square"></i></a>
+                <a target="_blank" href="your_url_here"><i class="fa fa-3x fa-facebook-square"></i></a>
+                <a target="_blank" href="your_url_here"><i class="fa fa-3x fa-twitter-square"></i>
+             </div></a>
+            
+        </div>		
+    </div>
+    <div class="col-lg-3">
+    <div class="our-team">
+        <%= image_tag "i2.png", class: "card" %>
+        <h5>Andy Ral</h5>
+        <h6>Backend Developer</h6>
+        <div class="wrapper">
+            <a target="_blank" href="your_url_here"><i class="fa fa-3x fa-linkedin-square"></i></a>
+            <a target="_blank" href="your_url_here"><i class="fa fa-3x fa-facebook-square"></i></a>
+            <a target="_blank" href="your_url_here"><i class="fa fa-3x fa-twitter-square"></i>
+         </div></a>
+        
+    </div>		
+</div>
+    <div class="col-lg-3">
+        <div class="our-team">
+            <%= image_tag "i6.png", class: "card" %>
+        <h5>Mahefa</h5>
+       <h6>Backend Developer</h6>
+       <div class="wrapper">
+        <a target="_blank" href="your_url_here"><i class="fa fa-3x fa-linkedin-square"></i></a>
+        <a target="_blank" href="your_url_here"><i class="fa fa-3x fa-facebook-square"></i></a>
+        <a target="_blank" href="your_url_here"><i class="fa fa-3x fa-twitter-square"></i>
+     </div></a>
+        </div>		
+    </div>
+    </div>
+</div>
+</div>
+
+
+=======
+<ul>
+	<% if  user_signed_in? %>
+    <li>
+    	<%=  link_to 'Déconnexion', destroy_user_session_path, method: :delete %>
+    </li>
+    <li>
+    	<%= current_user.email %>
+    </li>
+    <li>
+    	<%= link_to "Modifier Profil", edit_user_registration_path %>
+    </li>
+    <% else %>
+    <li>
+    	<%= link_to 'Connexion', new_user_session_path %>
+    </li>
+    <li>
+    	<%= link_to 'Insscription', new_user_registration_path %>
+    </li>
+   
+	<% end %>
+</ul>
+
+
+
+<h1>Home#index</h1>
+<p>Find me in app/views/home/index.html.erb</p>
+>>>>>>> dev
