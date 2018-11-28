@@ -24,4 +24,3 @@ Things you may want to cover:
 * ...
 * bla bla
 fhfhjf
-* cjklsqhJFKJDSHF
