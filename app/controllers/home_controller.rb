@@ -2,6 +2,7 @@ class HomeController < ApplicationController
   def index
   end
 
+<<<<<<< HEAD
   def contact
   end
 
@@ -12,5 +13,8 @@ class HomeController < ApplicationController
   end
 
   def product
+=======
+  def private
+>>>>>>> dev
   end
 end

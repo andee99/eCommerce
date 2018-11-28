@@ -6,6 +6,7 @@ class HomeControllerTest < ActionDispatch::IntegrationTest
     assert_response :success
   end
 
+<<<<<<< HEAD
   test "should get contact" do
     get home_contact_url
     assert_response :success
@@ -23,6 +24,10 @@ class HomeControllerTest < ActionDispatch::IntegrationTest
 
   test "should get product" do
     get home_product_url
+=======
+  test "should get private" do
+    get home_private_url
+>>>>>>> dev
     assert_response :success
   end
 
