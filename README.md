@@ -25,9 +25,12 @@ Things you may want to cover:
 * bla bla
 fhfhjf
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 *djzsqkpfojpoesifjoize
 *tena otran ts mety an
 =======
 * cjklsqhJFKJDSHF
 >>>>>>> dev
+=======
+>>>>>>> 508c63e778ffb0c8337bf8e87348404cc08ab822
