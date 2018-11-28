@@ -1,26 +1,86 @@
-<h2>Log in</h2>
+  <div class="container" style="padding-top: 7rem;">
 
-<%= form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
-  <div class="field">
-    <%= f.label :email %><br />
-    <%= f.email_field :email, autofocus: true, autocomplete: "email" %>
-  </div>
+        
 
-  <div class="field">
-    <%= f.label :password %><br />
-    <%= f.password_field :password, autocomplete: "current-password" %>
-  </div>
 
-  <% if devise_mapping.rememberable? -%>
-    <div class="field">
-      <%= f.check_box :remember_me %>
-      <%= f.label :remember_me %>
+
+
+    <div class="row">
+        <div class="col-lg-6" id="float">
+           <div class="diaporama">
+             
+               
+
+            
+            </div>
+        
+
+        </div>
+        
+
+        <div class="col-lg-6" id="log" > 
+          
+                <h2>Connexion</h2>
+
+                <%= form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
+
+                  <div class="field">
+                  <%= f.label :Email %><br />
+                  <%= f.email_field :email, autofocus: true, autocomplete: "email" %><br />
+                  </div>
+
+                
+
+                  
+                  <div class="field">
+                  <%= f.label :Mot_de_passe %><br />
+                  <%= f.password_field :password, autocomplete: "current-password" %><br />
+                  </div>
+                
+
+                <% if devise_mapping.rememberable? -%>
+
+                  <div class="field">
+                
+                  <%= f.check_box :remember_me %>
+                  <%= f.label :me_reconnaître %>
+                  </div>
+               
+                <% end -%><br />
+
+
+
+                 <div class="actions">
+                   <%= f.submit "log in" %>
+
+                 </div>    
+
+
+                
+                
+
+               
+                <a href= <%= new_registration_path(resource_name) %> class = "favorite styled" type="button" id="bouton">S'inscrire</a>
+               
+
+                <%- if devise_mapping.recoverable? && controller_name != 'passwords' && controller_name != 'registrations' %>
+                <%= link_to "Mot de passe oublier?", new_password_path(resource_name) %><br />
+                <% end -%>
+
+
+
+         
+          
+          <% end %>
+        </div>
     </div>
-  <% end -%>
-
-  <div class="actions">
-    <%= f.submit "Log in" %>
-  </div>
-<% end %>
+ 
+     
+  
 
 <%= render "devise/shared/links" %>
+
+
+
+
+
