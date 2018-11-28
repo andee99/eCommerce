@@ -12,6 +12,7 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ActiveRecord::Schema.define(version: 0) do
 =======
 ActiveRecord::Schema.define(version: 2018_11_27_054945) do
@@ -21,13 +22,24 @@ ActiveRecord::Schema.define(version: 2018_11_27_054945) do
 ActiveRecord::Schema.define(version: 2018_11_27_054945) do
 
 >>>>>>> 508c63e778ffb0c8337bf8e87348404cc08ab822
+=======
+ActiveRecord::Schema.define(version: 0) do
+=======
+
+ActiveRecord::Schema.define(version: 2018_11_27_054945) do
+
+>>>>>>> dev
+>>>>>>> dev
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> dev
 =======
 
 >>>>>>> 508c63e778ffb0c8337bf8e87348404cc08ab822
@@ -46,7 +58,11 @@ ActiveRecord::Schema.define(version: 2018_11_27_054945) do
   end
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> dev
 =======
 >>>>>>> 508c63e778ffb0c8337bf8e87348404cc08ab822
+=======
+>>>>>>> dev
+>>>>>>> dev
 end
